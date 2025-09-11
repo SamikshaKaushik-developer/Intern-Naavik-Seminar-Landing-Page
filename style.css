@@ -186,34 +186,12 @@ header p {
     color: #FFFFFF;
 }
 
-.registration form {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 30px;
-    background: url('wave-pattern.png') repeat;
-    background-size: 200px 200px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.registration {
+    background: linear-gradient(135deg, #F8F9FA 0%, #E3F2FD 100%);
 }
 
-.registration .form-group label {
-    font-weight: 600;
+.registration h2 {
     color: #002B5B;
-}
-
-.registration button {
-    background: #FFD93D;
-    color: #002B5B;
-    border: none;
-    border-radius: 25px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.registration button:hover {
-    background: #00A8A8;
-    color: #FFFFFF;
 }
 
 .contact form button {
@@ -335,4 +313,5 @@ footer .social a {
     .about p {
         font-size: 1rem;
     }
+
 }
