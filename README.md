@@ -66,14 +66,6 @@ We welcome contributions to improve the website! If you have suggestions or want
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-### Areas for Contribution
-
-- UI/UX improvements
-- Mobile responsiveness enhancements
-- Performance optimizations
-- Bug fixes
-- Documentation improvements
-
 ## Contributors 🧑‍🤝‍🧑
 
 - **Samiksha Kaushik** - [GitHub Profile](https://github.com/samikshakaushik-developer)
@@ -88,7 +80,6 @@ If you have any questions or would like to partner with us, please reach out to 
 
 - **Email:** info@naavik.org
 - **Website:** https://www.naavik.co.in/
-- **GitHub:** https://github.com/your-username/naavik-maritime-seminars
 
 ## About Naavik
 
