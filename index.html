@@ -475,8 +475,46 @@
             }
         }, 1000);
     </script>
+
+    <script>
+        // Handle form submission to Google Forms
+        document.getElementById('registrationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const fullName = document.getElementById('fullName').value;
+            const schoolName = document.getElementById('schoolName').value;
+            const city = document.getElementById('city').value;
+            const contactNumber = document.getElementById('contactNumber').value;
+            const emailAddress = document.getElementById('emailAddress').value;
+            const selectEvent = document.getElementById('selectEvent').selectedOptions[0].text;
+            
+            // Create Google Form URL with pre-filled data using your actual entry IDs
+            const baseUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScCoRs4qTSrS6tRn9bPr-wvV8PK__XGk-WHOV4Dtvdha2Gjdg/viewform';
+            
+            // Create URL with pre-filled parameters using your entry IDs
+            const params = new URLSearchParams({
+                'usp': 'pp_url',
+                'entry.190724952': fullName,         // Full Name field
+                'entry.786790121': schoolName,       // School/College Name field
+                'entry.1748774961': city,            // City field
+                'entry.1381997137': contactNumber,   // Contact Number field
+                'entry.1853064802': emailAddress,    // Email Address field
+                'entry.1123236580': selectEvent      // Select Event field
+            });
+            
+            const prefilledUrl = `${baseUrl}?${params.toString()}`;
+            
+            // Open pre-filled Google Form in new tab
+            window.open(prefilledUrl, '_blank');
+            
+            // Show success message
+            alert('Thank you for your interest! Please complete your registration in the new tab that just opened with your information pre-filled.');
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
 </body>
 
 </html>
-
-
