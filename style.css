@@ -194,6 +194,70 @@ header p {
     color: #002B5B;
 }
 
+.registration-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form .form-label {
+    font-weight: 600;
+    color: #002B5B;
+    margin-bottom: 8px;
+}
+
+.registration-form .required {
+    color: #FF6B6B;
+}
+
+.registration-form .form-control,
+.registration-form .form-select {
+    border: 2px solid #E1E5E9;
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.registration-form .form-control:focus,
+.registration-form .form-select:focus {
+    border-color: #00A8A8;
+    box-shadow: 0 0 0 0.2rem rgba(0, 168, 168, 0.25);
+}
+
+.registration-form .form-select {
+    color: #6C757D;
+}
+
+.registration-form .form-select:valid {
+    color: #002B5B;
+}
+
+.submit-btn {
+    background: linear-gradient(135deg, #FFA726 0%, #FF9800 100%);
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 152, 0, 0.4);
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 152, 0, 0.6);
+}
+
+.submit-btn i {
+    margin-right: 10px;
+}
+
 .contact form button {
     background: #FFD93D;
     color: #002B5B;
@@ -315,3 +379,4 @@ footer .social a {
     }
 
 }
+
