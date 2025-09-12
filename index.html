@@ -324,7 +324,7 @@
     </div>
 </section>
 
-    <section id="registration" class="section registration">
+    <section id="registration" class="registrationForm">
     <div class="container">
         <h2 class="YellowHeading">Register for the Webinar</h2>
         <p>Secure your spot in this exclusive maritime webinar</p>
@@ -394,24 +394,19 @@
             <a href="#registration" class="cta-button">Register Today</a>
         </div>
     </section>
-
-    <section id="contactForm" class="section contact">
-        <div class="container">
-            <h2 class="YellowHeading">Contact & Support</h2>
-            <p>Have questions? Reach out to us!</p>
-            <form>
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Name" required>
-                </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Email" required>
-                </div>
-                <div class="mb-3">
-                    <input type="tel" class="form-control" placeholder="Phone" required>
-                </div>
-                <div class="mb-3">
-                    <textarea class="form-control" placeholder="Message" rows="5" required></textarea>
-                </div>
+    <form id="contactForm">
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Name" id="contactName" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email" id="contactEmail" required>
+            </div>
+            <div class="mb-3">
+                <input type="tel" class="form-control" placeholder="Phone" id="contactPhone" required>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" placeholder="Message" rows="5" id="contactMessage" required></textarea>
+            </div>
                 <button type="submit" class="btn"><span class="containerend">Send Message</span></button>
             </form>
             <p>Email: <a href="mailto:info@naavik.org">info@naavik.org</a></p>
@@ -591,6 +586,7 @@
 </body>
 
 </html>
+
 
 
 
