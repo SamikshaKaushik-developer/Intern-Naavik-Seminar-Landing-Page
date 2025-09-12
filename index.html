@@ -428,9 +428,9 @@
                 <a href="#contact">Contact</a>
             </div>
             <div class="social">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/people/Naavik/61561226877646/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/naavik_official/" target="_blank"><i>Instagram</i></a>
+                <a href="https://www.linkedin.com/company/naavik-official/" target="_blank"><i>LinkedIn></i></a>
             </div>
         </div>
     </footer>
@@ -548,7 +548,8 @@
             // Reset form
             this.reset();
         });
-
+    </script>
+    <script>
         // Handle contact form submission to Google Forms
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
@@ -565,10 +566,10 @@
             // Create URL with pre-filled parameters
             const contactParams = new URLSearchParams({
                 'usp': 'pp_url',
-                'entry.1626472689': contactName,     // ← UPDATE THESE IF WRONG
-                'entry.919477960': contactEmail,     // ← UPDATE THESE IF WRONG
-                'entry.781559451': contactPhone,     // ← UPDATE THESE IF WRONG
-                'entry.1523325656': contactMessage   // ← UPDATE THESE IF WRONG
+                'entry.1626472689': contactName,     
+                'entry.919477960': contactEmail,    
+                'entry.781559451': contactPhone,    
+                'entry.1523325656': contactMessage  
             });
             
             const contactPrefilledUrl = `${contactBaseUrl}?${contactParams.toString()}`;
@@ -586,6 +587,7 @@
 </body>
 
 </html>
+
 
 
 
