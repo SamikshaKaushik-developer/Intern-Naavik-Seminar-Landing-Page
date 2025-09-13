@@ -343,6 +343,7 @@ footer .social a {
 }
 .YellowHeading {
     color: #FFD93D;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -379,4 +380,5 @@ footer .social a {
     }
 
 }
+
 
