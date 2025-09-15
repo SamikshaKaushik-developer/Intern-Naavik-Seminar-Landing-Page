@@ -17,7 +17,7 @@ body.dark-mode {
     /* Additional adjustments */
     --header-bg: #001833;
     --card-bg: rgb(8, 34, 65);
-    --link-color: #4dabf7;
+    --link-color: #a5c5df;
 }
 body.dark-mode header {
     background-color: rgba(8, 34, 65, 0.8);
