@@ -56,10 +56,10 @@ body.dark-mode .registration {
 }
 body.dark-mode .table th {
     background: linear-gradient(135deg, rgb(8, 34, 65) 0%, rgb(15, 60, 115) 100%);
-    color: #FFFFFF;
+    color: #0a0a0a;
 }
 body.dark-mode .table td {
-    color: #FFFFFF;
+    color: #0d0d0d;
 }
 body.dark-mode .table td a {
     color: #4dabf7;
