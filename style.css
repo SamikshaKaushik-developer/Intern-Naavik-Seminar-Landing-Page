@@ -381,4 +381,13 @@ footer .social a {
 
 }
 
-
+:root {
+    --bg-color: #f0f2f5;
+    --text-color: #1c2526;
+    /* ... */
+}
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    /* ... */
+}
