@@ -12,36 +12,36 @@ body {
 }
 
 body.dark-mode {
-    --bg-color: #121212;
+    --bg-color: rgba(0, 24, 51, 0.8);
     --text-color: #e0e0e0;
     /* Additional adjustments */
     --header-bg: #001833;
-    --card-bg: #1e1e1e;
+    --card-bg: #1751d8;
     --link-color: #4dabf7;
 }
 body.dark-mode header {
-    background-color: var(--header-bg);
-    color: var(--text-color);
+    background-color: rgba(0, 24, 51, 0.8);
+    color: whitesmoke;
 }
 body.dark-mode .card {
-    background-color: var(--card-bg);
-    color: var(--text-color);
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 body.dark-mode .table th {
-    background-color: var(--header-bg);
-    color: var(--text-color);
+    background-color:  rgba(0, 24, 51, 0.8);
+    color: whitesmoke;
 }
 body.dark-mode .navbar {
     background-color: rgba(0, 24, 51, 0.8);
 }
 body.dark-mode .countdown div {
-    background-color: var(--card-bg);
+    background-color:  rgba(0, 24, 51, 0.8);
 }
 body.dark-mode .countdown div span {
-    color: var(--text-color);
+    color: whitesmoke;
 }
 body.dark-mode .timings {
-    color: var(--text-color);
+    color: whitesmoke;
 }
 body.dark-mode .YellowHeading {
     color: #ffd700; /* Adjusted yellow for dark mode */
