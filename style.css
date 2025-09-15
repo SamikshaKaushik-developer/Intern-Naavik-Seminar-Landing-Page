@@ -62,7 +62,7 @@ body.dark-mode .table td {
     color: rgb(8, 34, 65);
 }
 body.dark-mode .table td a {
-    color: #4dabf7;
+    color: rgb(8, 34, 65);
     text-decoration: none;
 }
 body.dark-mode .table td a:hover {
