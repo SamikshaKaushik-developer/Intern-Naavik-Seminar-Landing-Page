@@ -28,6 +28,9 @@ body.dark-mode .card {
     color: whitesmoke;
 
 }
+body.dark-mode .registration{
+    background-color: rgb(29, 207, 220)
+}
 body.dark-mode .table th {
     background-color:  rgb(9, 89, 94);
     color: whitesmoke;
