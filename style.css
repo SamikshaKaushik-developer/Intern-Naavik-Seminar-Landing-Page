@@ -16,7 +16,7 @@ body.dark-mode {
     --text-color: whitesmoke;
     /* Additional adjustments */
     --header-bg: #001833;
-    --card-bg: #1751d8;
+    --card-bg: rgb(8, 34, 65);
     --link-color: #4dabf7;
 }
 body.dark-mode header {
@@ -24,33 +24,117 @@ body.dark-mode header {
     color: whitesmoke;
 }
 body.dark-mode .card {
-    background-color: rgb(9, 89, 94);
-    color: whitesmoke;
-
+    background: linear-gradient(135deg, rgb(8, 34, 65) 0%, rgb(15, 60, 115) 100%);
+    color: #FFFFFF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
 }
-body.dark-mode .registration{
-    background-color: rgb(29, 207, 220)
+body.dark-mode .registration {
+    background: linear-gradient(135deg, rgb(8, 34, 65) 0%, rgb(15, 60, 115) 100%);
 }
 body.dark-mode .table th {
-    background-color:  rgb(9, 89, 94);
-    color: whitesmoke;
+    background: linear-gradient(135deg, rgb(8, 34, 65) 0%, rgb(15, 60, 115) 100%);
+    color: #FFFFFF;
 }
 body.dark-mode .navbar {
-    background-color: rgb(9, 89, 94);
+    background: linear-gradient(135deg, rgb(8, 34, 65) 0%, rgb(15, 60, 115) 100%);
 }
 body.dark-mode .countdown div {
-    background-color:  rgb(9, 89, 94);
+    background: linear-gradient(135deg, rgb(8, 34, 65) 0%, rgb(15, 60, 115) 100%);
 }
 body.dark-mode .countdown div span {
-    color: rgb(248, 249, 249);
+    color: #FFFFFF;
 }
 body.dark-mode .timings {
-    color: whitesmoke;
+    color: #FFFFFF;
 }
 body.dark-mode .YellowHeading {
     color: #ffd700; /* Adjusted yellow for dark mode */
 }
 
+/* Style for contact form section in dark mode */
+body.dark-mode .contact {
+    background: linear-gradient(135deg, rgb(8, 34, 65) 0%, rgb(15, 60, 115) 100%);
+}
+body.dark-mode .contact form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+body.dark-mode .contact form .form-control,
+body.dark-mode .contact form textarea {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(77, 171, 247, 0.5);
+    color: #FFFFFF;
+}
+body.dark-mode .contact form .form-control::placeholder,
+body.dark-mode .contact form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+body.dark-mode .contact form button {
+    background: linear-gradient(135deg, #FFA726 0%, #FF9800 100%);
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 152, 0, 0.4);
+}
+body.dark-mode .contact form button:hover {
+    background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 152, 0, 0.6);
+}
+
+/* Ensure registration form matches in dark mode */
+body.dark-mode .registration-form {
+    background: linear-gradient(135deg, rgb(8, 34, 65) 0%, rgb(15, 60, 115) 100%);
+}
+body.dark-mode .registration-form .form-control,
+body.dark-mode .registration-form .form-select {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(77, 171, 247, 0.5);
+    color: #FFFFFF;
+}
+body.dark-mode .registration-form .form-control::placeholder,
+body.dark-mode .registration-form .form-select:invalid {
+    color: rgba(255, 255, 255, 0.5);
+}
+body.dark-mode .registration-form .form-select:valid {
+    color: #FFFFFF;
+}
+body.dark-mode .registration-form .form-label {
+    color: #FFFFFF;
+}
+body.dark-mode .registration-form .required {
+    color: #FF6B6B;
+}
+
+/* General dark mode enhancements */
+body.dark-mode .cta-button {
+    background-color: #FFD93D;
+    color: #002B5B;
+}
+body.dark-mode .cta-button:hover {
+    background-color: #00A8A8;
+    color: #FFFFFF;
+}
+body.dark-mode footer {
+    background: linear-gradient(135deg, rgb(8, 34, 65) 0%, rgb(15, 60, 115) 100%);
+}
+body.dark-mode .impact .card {
+    background: linear-gradient(135deg, rgb(8, 34, 65) 0%, rgb(15, 60, 115) 100%);
+}
+body.dark-mode .impact .card h3 {
+    color: #FFFFFF;
+}
+body.dark-mode .cardtext {
+    color: #FFFFFF;
+}
 
 .container {
     max-width: 1200px;
@@ -427,10 +511,3 @@ footer .social a {
     --text-color: #1c2526;
     /* ... */
 }
-body.dark-mode {
-    --bg-color: #121212;
-    --text-color: #e0e0e0;
-    /* ... */
-}
-
-
