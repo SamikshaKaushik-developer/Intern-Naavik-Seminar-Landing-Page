@@ -12,7 +12,7 @@ body {
 }
 
 body.dark-mode {
-    --bg-color: rgba(0, 24, 51, 0.8);
+    --bg-color: rgba(8, 34, 65, 0.8);
     --text-color: #e0e0e0;
     /* Additional adjustments */
     --header-bg: #001833;
@@ -20,7 +20,7 @@ body.dark-mode {
     --link-color: #4dabf7;
 }
 body.dark-mode header {
-    background-color: rgba(0, 24, 51, 0.8);
+    background-color: rgba(8, 34, 65, 0.8);
     color: whitesmoke;
 }
 body.dark-mode .card {
