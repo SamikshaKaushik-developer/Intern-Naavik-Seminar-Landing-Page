@@ -25,7 +25,8 @@ body.dark-mode header {
 }
 body.dark-mode .card {
     background-color: rgb(9, 89, 94);
-    color: rgb(0, 0, 0);
+    color: whitesmoke;
+
 }
 body.dark-mode .table th {
     background-color:  rgb(9, 89, 94);
