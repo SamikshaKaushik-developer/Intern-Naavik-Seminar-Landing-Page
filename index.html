@@ -513,6 +513,22 @@
         });
     </script>
     <script>
+        const toggleButton = document.getElementById('theme-toggle');
+    const body = document.body;
+    const toggleIcon = toggleButton.querySelector('i');
+    if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark-mode');
+        toggleIcon.classList.replace('fa-sun', 'fa-moon');
+    }
+toggleButton.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    const isDarkMode = body.classList.contains('dark-mode');
+    toggleIcon.classList.toggle('fa-sun', !isDarkMode);
+    toggleIcon.classList.toggle('fa-moon', isDarkMode);
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+});
+    </script>
+    <script>
         // Handle registration form submission to Google Forms
         document.getElementById('registrationForm').addEventListener('submit', function(e) {
             e.preventDefault();
@@ -589,6 +605,7 @@
 </body>
 
 </html>
+
 
 
 
