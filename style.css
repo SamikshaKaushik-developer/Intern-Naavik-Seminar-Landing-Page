@@ -59,7 +59,7 @@ body.dark-mode .table th {
     color: rgb(8, 34, 65);
 }
 body.dark-mode .table td {
-    color: rgb(8, 34, 65);
+    color: whitesmoke;
 }
 body.dark-mode .table td a {
     color: rgb(8, 34, 65);
