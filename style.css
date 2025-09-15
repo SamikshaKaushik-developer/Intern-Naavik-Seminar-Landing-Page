@@ -13,7 +13,7 @@ body {
 
 body.dark-mode {
     --bg-color: rgba(8, 34, 65, 0.8);
-    --text-color: #e0e0e0;
+    --text-color: whitesmoke;
     /* Additional adjustments */
     --header-bg: #001833;
     --card-bg: #1751d8;
@@ -39,7 +39,7 @@ body.dark-mode .countdown div {
     background-color:  rgb(9, 89, 94);
 }
 body.dark-mode .countdown div span {
-    color: rgb(9, 89, 94);
+    color: rgb(248, 249, 249);
 }
 body.dark-mode .timings {
     color: whitesmoke;
