@@ -28,17 +28,17 @@ body.dark-mode .card {
     color: rgb(0, 0, 0);
 }
 body.dark-mode .table th {
-    background-color:  rgba(0, 24, 51, 0.8);
+    background-color:  rgb(9, 89, 94);
     color: whitesmoke;
 }
 body.dark-mode .navbar {
-    background-color: rgba(0, 24, 51, 0.8);
+    background-color: rgb(9, 89, 94);
 }
 body.dark-mode .countdown div {
-    background-color:  rgba(0, 24, 51, 0.8);
+    background-color:  rgb(9, 89, 94);
 }
 body.dark-mode .countdown div span {
-    color: whitesmoke;
+    color: rgb(9, 89, 94);
 }
 body.dark-mode .timings {
     color: whitesmoke;
