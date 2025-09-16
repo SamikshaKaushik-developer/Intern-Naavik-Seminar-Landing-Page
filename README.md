@@ -73,6 +73,7 @@ We welcome contributions to improve the website! If you have suggestions or want
 ## License 📜
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+Link for the page; https://seminar-landing-page-six.vercel.app/
 
 ## Contact 📞
 
