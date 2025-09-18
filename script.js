@@ -1,4 +1,4 @@
-<script>
+
         // Set the date we're counting down to
         const countDownDate = new Date("Oct 25, 2025 10:00:00").getTime();
 
@@ -29,9 +29,9 @@
                 document.querySelector(".countdown").innerHTML = "Event is Live!";
             }
         }, 1000);
-    </script>
 
-    <script>
+
+
         // Handle form submission to Google Forms
         document.getElementById('registrationForm').addEventListener('submit', function(e) {
             e.preventDefault();
@@ -69,10 +69,8 @@
             // Reset form
             this.reset();
         });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
-    <script>
-        const toggleButton = document.getElementById('theme-toggle');
+ 
+    const toggleButton = document.getElementById('theme-toggle');
     const body = document.body;
     const toggleIcon = toggleButton.querySelector('i');
     if (localStorage.getItem('theme') === 'dark') {
@@ -125,8 +123,7 @@ toggleButton.addEventListener('click', () => {
             // Reset form
             this.reset();
         });
-    </script>
-    <script>
+   
         // Handle contact form submission to Google Forms
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
